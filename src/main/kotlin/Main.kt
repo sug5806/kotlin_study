@@ -17,4 +17,8 @@ fun main(args: Array<String>) {
     val c = a?.length ?: 0
     println(c)
 
+    // null이 할당되어도 !!를 붙이면 개발자가 컨트롤하겠다는 의미가 된다.
+    val d : String? = null
+    val dd = d!!.length
+
 }
